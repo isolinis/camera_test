@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Prueba Icono de Camara</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="camera_test.css">
+        <script src="camara_test.js"></script>
+
+    </head>
+
+    <body onLoad="init();">
+
+        <canvas id="canvas" width="600" height="400">Tu explorador no admite el elemento canvas de HTML5</canvas>
+        <article>
+            Porcentaje de escalado:
+            <input id="slide" type="range" min="0" max="100" value="100" onChange="changeScale(this.value)" step="10"/>
+            Aviso: algunos exploradores de internet representan el deslizador como texto.
+        </article>
+        <article>
+            Basado en el libro 'HTML5 and JavaScript Projects' de Jeanine Meyer.
+        </article>
+        <footer>
+            Camera icon by <a href="http://www.samsung.com">Samsung</a>.
+        </footer>
+
+    </body>
+</html>
